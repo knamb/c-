@@ -18,7 +18,7 @@ int main(){
 using namespace std;
 #define PI 3.14159
 #define loop(x,n) for (int x=0; x<n; x ++); // for반복문을 loop라는 문자열로 치환
-
+///참고로 매크로정의를 위해 define을 사용해 봤지만, 세미콜론덕에 헤맸다 세미콜론을 사용하지 않도록 주의.
 int main(){
   cout << PI << '\n';
   int sum = 0;
